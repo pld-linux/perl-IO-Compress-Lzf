@@ -6,7 +6,7 @@
 %define	pdir	IO
 %define	pnam	Compress-Lzf
 Summary:	Modules to read/write lzf files/buffers
-Summary(pl):	Modu³y do odczytu/zapisu plików/buforów lzf
+Summary(pl.UTF-8):   ModuÅ‚y do odczytu/zapisu plikÃ³w/buforÃ³w lzf
 Name:		perl-IO-Compress-Lzf
 Version:	2.001
 Release:	1
@@ -34,15 +34,15 @@ Note that although this module uses Compress::LZF for compression, it
 uses a different file format. The lzf file format used here is the
 same as the lzf command-line utility that ships with the lzf library.
 
-%description -l pl
-Modu³y IO::Compress::Lzf i IO::Uncompress::UnLzf udostêpniaj± perlowy
-interfejs umo¿liwiaj±cy odczyt i zapis danych skompresowanych
-algorytmem lzf z/do plików lub buforów.
+%description -l pl.UTF-8
+ModuÅ‚y IO::Compress::Lzf i IO::Uncompress::UnLzf udostÄ™pniajÄ… perlowy
+interfejs umoÅ¼liwiajÄ…cy odczyt i zapis danych skompresowanych
+algorytmem lzf z/do plikÃ³w lub buforÃ³w.
 
-Nale¿y zauwa¿yæ, ¿e choæ ten modu³ wykorzystuje do kompresji modu³
-Compress::LZF, u¿ywa innego formatu plików. U¿ywany tutaj format
-plików jest taki sam jak narzêdzia lzf uruchamianego z linii poleceñ,
-dostarczanego wraz z bibliotek± lzf.
+NaleÅ¼y zauwaÅ¼yÄ‡, Å¼e choÄ‡ ten moduÅ‚ wykorzystuje do kompresji moduÅ‚
+Compress::LZF, uÅ¼ywa innego formatu plikÃ³w. UÅ¼ywany tutaj format
+plikÃ³w jest taki sam jak narzÄ™dzia lzf uruchamianego z linii poleceÅ„,
+dostarczanego wraz z bibliotekÄ… lzf.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
