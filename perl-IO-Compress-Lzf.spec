@@ -6,7 +6,7 @@
 %define	pdir	IO
 %define	pnam	Compress-Lzf
 Summary:	Modules to read/write lzf files/buffers
-Summary(pl.UTF-8):   Moduły do odczytu/zapisu plików/buforów lzf
+Summary(pl.UTF-8):	Moduły do odczytu/zapisu plików/buforów lzf
 Name:		perl-IO-Compress-Lzf
 Version:	2.001
 Release:	1
