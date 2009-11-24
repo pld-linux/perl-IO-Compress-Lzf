@@ -8,13 +8,13 @@
 Summary:	Modules to read/write lzf files/buffers
 Summary(pl.UTF-8):	Moduły do odczytu/zapisu plików/buforów lzf
 Name:		perl-IO-Compress-Lzf
-Version:	2.021
+Version:	2.023
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/IO/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	a705e0a225206a6241d64192b709cde4
+# Source0-md5:	d21e8e38bb58870003a55db89120e830
 URL:		http://search.cpan.org/dist/IO-Compress-Lzf/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
